@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+.obj{
+    text-indent: 7em;
+}
+table{
+    width: 50%;
+    border: none;
+    border-radius: 100px;
+    border-collapse: collapse;
+    height: 350px;
+    background-color:rgb(76, 76, 170) ;
+}
+th{
+    background-color:rgb(76, 76, 170) ;
+    color: white;
+    padding-left: 10px;
+    border-collapse: collapse;
+}
+td{
+    background-color:beige;
+    padding:20px;
+}
+

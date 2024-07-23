@@ -1,0 +1,73 @@
+body{
+    background-image: url("wp4390828.webp");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+.container{
+    position: absolute;
+    border: black;
+    border-radius: 5px;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    background-color: red;
+    border-radius: 50%;
+}
+#email{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    border-top-style: none;
+
+}
+#email:focus{
+    outline: none;
+}
+#password{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+}
+#password:focus{
+    outline: none;
+}
+button{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display:list-item;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+.main{
+    height: 150px;
+}
+.transparent{
+    position: relative;
+    margin-top: -85px;
+    margin-left: 160px;
+}
+.absolute{
+    position: relative;
+    margin-left: 140px;
+    margin-top: -20px;
+}
+.self{
+    margin-right:130px ;
+    margin-top: 180px;
+}
