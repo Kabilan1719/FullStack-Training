@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fact(){
+            var total = 1;
+            var a = parseInt(document.getElementById("b1").value);
+            for(var i=1;i<=a;i++)
+            {
+            total*= i;
+            }
+            document.getElementById("res").innerHTML = total;
+        }
+    </script>
+</head>
+<body>
+    Enter the factorial number: <input type="text" id="b1" placeholder="enter the num" onfocus="this.value" onblur="fact()" >
+    
+    <button onclick="fact()" >Factorial</button>
+    <h1 id="res"></h1>
+</body>
+</html>
