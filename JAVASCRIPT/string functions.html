@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string function</title>
+    
+</head>
+<body>
+    <h1 id="input">Javascript programming</h1>
+    <p id="len"></p>
+    <p id="char"></p>
+    <p id="sli"></p>
+    <p id="subs"></p>
+    <p id="subst"></p>
+    <p id="toupper"></p>
+    <p id="tolower"></p>
+    <p id="con"></p>
+    <p id="trim"></p>
+    <p id="trimst"></p>
+    <p id="trimen"></p>
+    <p id="repeat"></p>
+    <p id="replace"></p>
+    <p id="replaceall"></p>
+    <p id="spl"></p>
+
+    <script>
+        let a = document.getElementById("input");
+        document.getElementById("len").textContent ="String Length : "+ a.innerHTML.length;
+        document.getElementById("char").textContent = "CharAt : " + a.innerHTML.charAt(0);
+        document.getElementById("sli").textContent = "slice : " +a.innerHTML.slice();
+        document.getElementById("subs").textContent = "substring : " +a.innerHTML.substring(0,3);
+        document.getElementById("subst").textContent = "substr : " + a.innerHTML.substr(4);
+        document.getElementById("toupper").textContent = "toUppercase : " +a.innerHTML.toUpperCase();
+        document.getElementById("tolower").textContent = "toLowercase : " +a.innerHTML.toLowerCase();
+        let b = " language"
+        document.getElementById("con").textContent = "concat : " +a.innerHTML.concat(b);
+        document.getElementById("trim").textContent = "trim : " +a.innerHTML.trim();
+        document.getElementById("trimst").textContent = "trimstart : " +a.innerHTML.trimStart();
+        document.getElementById("trimen").textContent = "trimend : " +a.innerHTML.trimEnd();
+        document.getElementById("repeat").textContent = "repeat : " +a.innerHTML.repeat(2);
+        document.getElementById("replace").textContent = "replace : " +a.innerHTML.replace("Java","x");
+        document.getElementById("replaceall").textContent = "replaceAll : " +a.innerHTML.replaceAll("a","u");
+        document.getElementById("spl").textContent = "split : " +a.innerHTML.split()
+    </script>
+</body>
+</html>
