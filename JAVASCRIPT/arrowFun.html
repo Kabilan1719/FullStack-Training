@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Fun</title>
+</head>
+<body>
+    <script>
+        const sum = () => 10+20;
+        document.write("<br>Addition : "+sum());
+        const sub = (x, y) => x-y;
+        document.write("<br>Subtraction : " + sub(10,20));
+        const mult = (x,y) => x*y;
+        document.write("<br>Multiplication : "+mult(10,20));
+        const div = (x,y) => x/y;
+        document.write("<br>Division : "+div(10,20));
+        const big = (x,y) => {
+            if(x>y)
+            {
+                return x;
+            }
+            else
+            {
+                return y;
+            }
+            
+        }
+        document.write("<br>Big : " +big(10,20))
+        const fact = (x) => {
+            var total = 1;
+            for(var i=1;i<=x;i++)
+            {
+                total *= i;
+            }
+            return total;
+        }
+        document.write("<br>fact : " +fact(5))
+    </script>
+</body>
+</html>
