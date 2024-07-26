@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator1.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" id="result">0</th>
+        </tr>
+        <tr>
+            <td onclick="clear()">C</td>
+            <td onclick="join('%')">%</td>
+            <td onclick="backspace()"> <= </td>
+            <td onclick="oper('/')">/</td>
+        </tr>
+        <tr>
+            <td onclick="join('7')">7</td>
+            <td onclick="join('8')">8</td>
+            <td onclick="join('9')">9</td>
+            <td onclick="oper('*')">*</td>
+        </tr>
+        <tr>
+            <td onclick="join('4')">4</td>
+            <td onclick="join('5')">5</td>
+            <td onclick="join('6')">6</td>
+            <td onclick="oper('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="join('1')">1</td>
+            <td onclick="join('2')">2</td>
+            <td onclick="join('3')">3</td>
+            <td onclick="oper('+')">+</td>
+        </tr>
+        <tr>
+            <td onclick="join('00')">00</td>
+            <td onclick="join('0')">0</td>
+            <td onclick="join('.')">.</td>
+            <td onclick="calc()">=</td>
+        </tr>
+    </table>
+</body>
+</html>
