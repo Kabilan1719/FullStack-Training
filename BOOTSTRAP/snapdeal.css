@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.space{
+    margin-bottom: 8px;
+    color: gray;
+    font-size: 14px;
+}
+.carousel-item img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover; 
+}
+.itemss{
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    background-color: white;
+    padding: 8px;
+}
+.img1{
+    padding: 10px;
+    display: flex;
+}
